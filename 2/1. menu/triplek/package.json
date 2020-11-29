@@ -1,0 +1,17 @@
+{
+  "name": "triplek",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-alpha3",
+    "popper.js": "^1.16.1",
+    "vue": "^3.0.2"
+  },
+  "devDependencies": {
+    "vite": "^1.0.0-rc.8",
+    "@vue/compiler-sfc": "^3.0.2"
+  }
+}
