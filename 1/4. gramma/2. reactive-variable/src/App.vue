@@ -12,8 +12,8 @@ import { ref } from 'vue'
 export default {
   // Composition API
   setup() {
-    let abbr = ref('DOPT')
-    let normal = ref('Dong Project Team')
+    const abbr = ref('DOPT')
+    const normal = ref('Dong Project Team')
     return {
       abbr,
       normal,
