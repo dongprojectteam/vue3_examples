@@ -16,6 +16,12 @@ app.component('Component', {
 
 app.component('Component2', {
   inheritAttrs: false,
+  setup(props, context) {
+    const msg = context.attrs.msg
+    return {
+      msg
+    }
+  },
   template: `
     <Component3></Component3>
   `,
