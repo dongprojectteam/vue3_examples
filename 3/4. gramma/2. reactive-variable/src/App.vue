@@ -1,5 +1,5 @@
 <template>
-  <p>줄입말과 원래말을 입력하세요.</p>
+  <p>줄임말과 원래말을 입력하세요.</p>
   <input type="text" v-bind:value="abbr" />
   <input type="text" v-model="normal" />
   <hr />

@@ -1,6 +1,6 @@
 <template>
   <ul style="list-style-type: none">
-    <li v-for="(item, index) in items" :key="index">
+    <li v-for="item in items">
       <slot :item="item"></slot>
     </li>
   </ul>

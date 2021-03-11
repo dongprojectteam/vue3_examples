@@ -14,7 +14,7 @@
     value="female"
   /><br />
   <label>취미 : </label>
-  <span v-for="(hobby, index) in hobby_options" :key="index">
+  <span v-for="hobby in hobby_options" :key="hobby">
     <label>{{ hobby }}</label>
     <input type="checkbox" v-model="result.hobby" v-bind:value="hobby" /> </span
   ><br />
@@ -22,7 +22,7 @@
   <input type="password" v-model="result.password" /><br />
   <label>국가 : </label>
   <select v-model="result.country">
-    <option v-for="(country, index) in country_options" :key="index">
+    <option v-for="country in country_options" :key="country">
       {{ country }}
     </option></select
   ><br />
