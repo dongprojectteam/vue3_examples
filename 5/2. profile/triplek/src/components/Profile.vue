@@ -46,6 +46,7 @@ import { useStore } from 'vuex'
 import useAxios from '/@app_modules/axios.js'
 
 const Card = defineComponent({
+  name: 'Card',
   props: {
     top: Boolean,
     resume: Object,

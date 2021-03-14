@@ -47,6 +47,7 @@ import { useProfile } from '/@compositions/useProfile'
 import useAxios from '/@app_modules/axios'
 
 const Card = defineComponent({
+  name: 'Card',
   props: {
     top: Boolean,
     resume: Object,
