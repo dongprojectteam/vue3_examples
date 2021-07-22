@@ -9,7 +9,7 @@
 </template>
 
 <script>
-// SFC의 name, inheritAttrs, customOptions 등은 따로 script 태그에 작성한다.
+// SFC의 name, inheritAttrs, 사용자 옵션 등은 따로 script 태그에 작성한다.
 export default {
   name: "App",
 }

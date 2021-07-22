@@ -47,5 +47,4 @@ watch(
     emit('change-filter', filter)
   }
 )
-
 </script>
