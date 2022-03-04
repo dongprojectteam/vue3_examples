@@ -22,5 +22,6 @@ _vitejs 를 통해 빌드된 dist 아래 파일들은 적절한 서버환경으�
 
 # DEMO
 
-https://www.doptsw.com/todo
-https://www.doptsw.com/memo
+TODO Application : https://www.doptsw.com/todo
+
+Memo Application : https://www.doptsw.com/memo
